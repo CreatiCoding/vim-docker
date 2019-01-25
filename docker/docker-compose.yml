@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  ubnutu:
+    build: .
+    image: test_name:test_tag
+    ports:
+      - 22:22
+    container_name: test_container

@@ -4,6 +4,7 @@ services:
     build: .
     volumes:
       - ../workspace:/root/workspace
+      - ./.vimrc:/root/.vimrc
     image: test_name:test_tag
     ports:
       - 22:22

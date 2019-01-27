@@ -1,1 +1,1 @@
-docker run -it test_name:test_tag /bin/zsh
+docker exec -it test_container /bin/zsh

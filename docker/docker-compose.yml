@@ -1,7 +1,9 @@
-version: '3.0'
+version: "3.0"
 services:
   ubnutu:
     build: .
+    volumes:
+      - ../workspace:/root/workspace
     image: test_name:test_tag
     ports:
       - 22:22
